@@ -48,9 +48,11 @@ message_interval = 10
 counter = 0
 
 addrOled = 60                # Wifi 32 kit oled I2C address 0x3c
+addrSI7021 = 64            #  I2C address 0x40
 addrCCS811 = 90              # CCS811_I2C_Address 0x5a
 addrAT24C32 = 87             # AT24C32_I2C_Address 0x57
 addrDS3231 = 104             # DS3231_I2C_ADDRESS 0x68
+addrBME280 = 118            #  I2C address 0x76 
 ccs811IsConnected = False
 oledIsConnected = False
 AT24C32IsConnected = False
